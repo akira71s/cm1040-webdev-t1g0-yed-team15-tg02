@@ -34,35 +34,36 @@ description:Head section with tags used for metadata configuration of the site. 
   description:Header section.
   -->
   <header>   
-   <!-- Rui Caneira - Icon image for space warriors -->
-   <img src="/images/Space Warriors Icon.png" alt="Icon" width="50" height="25">
-   
-   <!-- Rui Caneira - information section -->
-   <div>
-    Due to ongoing COVID 19 situation, facial masks are mandatory.
-   </div>
-   
-   <!-- Rui Caneira - Site Language selection list -->
-   <label for="languages">Select Language:</label>
-   <select name="languages" id="languages">
-    <option value="english">English</option>
-    <option value="portuguese">Portuguese</option>
-    <option value="japanese">Japanese</option>
-   </select>
-   
-   <!-- Rui Caneira - support email link -->
-   <a href="mailto:someone@example.com">Support</a>   
+    <a href="./index.html">
+      <!-- Rui Caneira - Icon image for space warriors -->
+      <img src="./images/SpaceWarriorsIcon.png" alt="Icon" width="50" height="25">
+    </a>
+    <!-- Rui Caneira - information section -->
+    <div>
+      Due to ongoing COVID 19 situation, facial masks are mandatory.
+    </div>
+    
+    <!-- Rui Caneira - Site Language selection list -->
+    <label for="languages">Select Language:</label>
+    <select name="languages" id="languages">
+      <option value="english">English</option>
+      <option value="portuguese">Portuguese</option>
+      <option value="japanese">Japanese</option>
+    </select>
+    
+    <!-- Rui Caneira - support email link -->
+    <a href="mailto:someone@example.com">Support</a>   
   </header>
- 
- <!-- Rui Caneira - nav bar possible can use later a BS for a nav bar and specify the link urls also-->
- <div>
-  <a href="url">Event Schedule</a>
-  <a href="url">Prices</a>
-  <a href="url">Tickets</a>
-  <a href="url">Access</a>
-  <a href="url">Shops</a>
- </div>
- 
+
+  <!-- Rui Caneira - nav bar possible can use later a BS for a nav bar and specify the link urls also-->
+  <div>
+    <a href="#">Event Schedule</a>
+    <a href="#">Prices & Tickets</a>
+    <a href="./attractions.html">Attractions</a>
+    <a href="#">Access</a>
+    <a href="./shops.html">Shops</a>
+  </div>
+
  <!-- Rui Caneira - Carousel for the images. BS libray used. -->
  <div class="container">
   <h2>Carousel Example</h2>  
@@ -80,12 +81,50 @@ description:Head section with tags used for metadata configuration of the site. 
         <img src="images/SpaceWarriors01.jpg" alt="Space Battle" style="width:100%;">
       </div>
 
+<<<<<<< Updated upstream
       <div class="item">
         <img src="images/SpaceWarriors02.jpg" alt="Launch" style="width:100%;">
       </div>
     
       <div class="item">
         <img src="images/SpaceWarriors03.jpg" alt="Space Fighter" style="width:100%;">
+=======
+  <!-- Rui Caneira - nav bar possible can use later a BS for a nav bar and specify the link urls also-->
+  <div>
+    <a href="#">Event Schedule</a>
+    <a href="#">Prices & Tickets</a>
+    <a href="./attractions.html">Attractions</a>
+    <a href="#">Access</a>
+    <a href="./shops.html">Shops</a>
+  </div>
+
+
+  <!--MAIN CONTENTS START-->
+  <!-- Rui Caneira - Carousel for the images. BS libray used. -->
+  <div class="container">
+    <h2>Carousel Example</h2>  
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Rui Caneira - Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Rui Caneira - Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="../images/SpaceWarriors01.jpg" alt="Space Battle" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="../images/SpaceWarriors02.jpg" alt="Launch" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="../images/SpaceWarriors03.jpg" alt="Space Fighter" style="width:100%;">
+        </div>
+>>>>>>> Stashed changes
       </div>
     </div>
 
