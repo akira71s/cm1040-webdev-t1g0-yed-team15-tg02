@@ -17,5 +17,5 @@ Due: 7th June
 https://sharedrreubnpe.labs.coursera.org/
 
 ## Team Work 3
-Due: 28th June  
+Due: 21st June  
 [Google Doc](https://docs.google.com/document/d/1LwEYz0lQgT-N1N2XVYgL2kaPhzWI_5PlZhL-_UrGfdI/edit#heading=h.2d0hgrjwz7iv)  
