@@ -27,7 +27,7 @@ description:Head section with tags used for metadata configuration of the site. 
   <meta name="keywords" content="Fun, Theme Park, Space Warriors, Space Adventures, Adventure, Space">
   <meta name="author" content="WebDev Team 15">
   <!--Akira Sakaguchi favicon added -->
-  <link rel="icon" href="../images/icon_space-warriors.png" />
+  <link rel="icon" href="./src/images/icon_space-warriors.png" /> 
 </head>
 
 <body>
@@ -40,9 +40,12 @@ description:Head section with tags used for metadata configuration of the site. 
     <!-- Akira Sakaguchi - adding a link to the top page-->
     <a href="./index.html">
       <!-- Rui Caneira - Icon image for space warriors -->
-      <img src="../images/icon_space-warriors.png" alt="Icon" width="50" height="25">
+      <img src="./src/images/icon_space-warriors.png" alt="Icon" width="50" height="25">
       <!-- Rui Caneira - information section -->
     </a>
+    <div>
+      Due to ongoing COVID 19 situation, facial masks are mandatory.
+    </div>
     <!-- Rui Caneira - Site Language selection list -->
     <label for="languages">Select Language:</label>
     <select name="languages" id="languages">
@@ -56,6 +59,7 @@ description:Head section with tags used for metadata configuration of the site. 
 
   <!-- Rui Caneira - nav bar possible can use later a BS for a nav bar and specify the link urls also-->
   <div>
+    <a href="#">Event Schedule</a>
     <a href="#">Prices & Tickets</a>
     <a href="./attractions.html">Attractions</a>
     <a href="#">Access</a>
@@ -63,34 +67,59 @@ description:Head section with tags used for metadata configuration of the site. 
   </div>
 
   <!--MAIN CONTENTS START-->
-  <!--Akira Sakaguchi added HOTELS -->
-  <div>
-    <span> HOTELS </span>
+  <!--Akira Sakaguchi added attractionA-->
+  <div> <!-- attractionA MISSION SPACE-->
     <a href="#">
-      <img src="../images/hotels.jpg" />
+      <img src="./src/images/attraction_mission-space.jpg"/>
     </a>
-  </div>
+    <div>
+      MISSION SPACE: Work on a mission as a team to save the planet!<br/>
+      Click <a href="#">here</a> to check out more details.
+    </div>
+  <div />
   <br />
 
-  <!--Akira Sakaguchi added SHOPS -->
   <div>
-    <span> SHOPS </span>
+    <!-- attractionB SPACE COASTER-->
     <a href="#">
-      <img src="../images/shops.jpg" />
+      <img src="./src/images/attraction_space-coaster.jpg" />
     </a>
-  </div>
+    <div>
+      SPACE COASTER: Are you dare to try this speed? <br />
+      Click <a href="#">here</a> to check out more details.
+    </div>
+  <div />
   <br />
 
-  <!--Akira Sakaguchi added RESTAURANTS -->
   <div>
-    <span> RESTAURANTS </span>
+    <!-- attractionC TRAVEL WITH HANK SOLON-->
     <a href="#">
-      <img src="../images/restaurants.jpg" />
+      <img src="./src/images/attraction_travel-with-hank-solon.jpg" />
     </a>
-  </div>
+    <div>
+      TRAVEL WITH HANK SOLON: Space travel with the most popular character - Hank Solon!<br />
+      Click <a>here</a> to check out more details.
+    </div>
+  <div />
   <br />
+
+  <div>
+    <!-- attractionD PILOT RIOT-->
+    <a href="#">
+      <img src="./src/images/attractions_pilot_riot.jpg" />
+    </a>
+    <div>
+      PILOT RIOT: Be a brave pilot and to save the universe<br />
+      Click <a>here</a> to check out more details.
+    </div>
+  <div />
   <!--MAIN CONTENTS END-->
-
+  <br/>
+  <!-- 
+    author: Rui Caneira 31/05/2021
+    last updated by: Rui Caneira 31/05/2021
+    description:Footer section.
+    -->
   <footer>
     <p>Company Space Warrior Inc.<br>
       Adress: XPTO Street <br>
