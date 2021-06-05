@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/40524432/120882841-23abb300-c615-11eb-985a-52edbb0b9af0.png)
+
 # cm1040-webdev-t1g0-yed-team15-tg02
 UOL: CM1040 Web Development 
 
