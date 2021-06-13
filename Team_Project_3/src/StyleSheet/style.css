@@ -1,0 +1,109 @@
+/*
+  author: Abiodun Q. Adekunle 13/06/2021
+  last updated by: Abiodun Q. Adekunle 13/06/2021
+  description: Pages styles definition to apply colors/font/appearance styles to page elements.
+*/
+/* ### Font ### */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ### Document ### */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Correct the line height in all browsers. */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* ### Grouping content ### */
+/* Remove the gray background on active links. */
+a {
+  background-color: transparent;
+}
+
+/* Add the correct font weight in Chrome, Edge, and Safari. */
+b,
+strong {
+  font-weight: bolder;
+}
+
+
+/* Remove the border on images inside links. */
+img {
+  border-style: none;
+}
+
+
+/* ### Footer Section ### */
+#pgFooter {
+  background-image: url("../images/space_warriors_footer_background.png");
+  width: 100%;
+  background-size: cover;
+}
+
+#pgFooter .ftLinkContainer {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 20px 120px;
+  display: flex;
+  justify-content: center;
+}
+
+#pgFooter .ftLinkContainer ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+#pgFooter .ftLinkContainer ul li {
+  padding: 0 26px;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+#pgFooter .ftLinkContainer ul li:last-child {
+  border-right: none;
+}
+
+#pgFooter .ftLinkContainer ul li a {
+  color: rgb(255, 255, 255);
+}
+
+#pgFooter .ftInfoContainer {
+  padding: 48px 120px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+#pgFooter .ftInfoContainer .ftContact {
+  display: flex;
+}
+
+#pgFooter .ftInfoContainer .ftContact p {
+  padding: 0 26px;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+#pgFooter .ftInfoContainer .ftContact p:last-child {
+  border-right: none;
+}
