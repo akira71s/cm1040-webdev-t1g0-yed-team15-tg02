@@ -10,8 +10,6 @@
 
 * {
   box-sizing: border-box;
-  /* author: Akira Sakaguchi - Changed the default font color  */
-  color: rgb(255, 255, 255);
 }
 
 /* Correct the line height in all browsers. */
@@ -62,6 +60,8 @@ img {
   padding: 20px 120px;
   background: rgba(18, 44, 52, 0.8);
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  /* author: Akira Sakaguchi - Changed the warning message font color  */
+  color: rgb(255, 0, 0)
 }
 
 /* ### Header Section ### */
@@ -70,6 +70,10 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#pgHeader .hdMisc a {
+  color: rgb(255, 255, 255);
 }
 
 /* ### Navigation Section ### */
@@ -83,6 +87,7 @@ img {
 }
 
 #pgNav a {
+  color: rgb(255, 255, 255);
   padding: 0 26px;
   font-size: 16px;
   font-weight: bold;
@@ -130,6 +135,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: rgb(255, 255, 255);
 }
 
 #pgFooter .ftInfoContainer .ftContact {
