@@ -167,6 +167,42 @@ img {
   border-right: none;
 }
 
+/* Abiodun Q. Adekunle 19/06/2021 */
+/* ### PAGE LEVEL STYLES ##*/
+.pgCaption {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+}
+
+.pgLink {
+  color: rgb(78, 165, 217);
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid rgb(78, 165, 217);
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.pgLink:hover {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.pgItemTitle {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: medium;
+}
+
+
+.pgItemDescription {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 /* Rui Caneira */
 /* last updated by: Abiodun Q. Adekunle 19/06/2021 */
 /* ### Shops page styling ### */
@@ -174,12 +210,6 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 40px;
-}
-
-.shopCaption {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  margin-bottom: 40px;
 }
 
 .shopItem {
@@ -202,6 +232,7 @@ img {
 
 .shopItem:hover .shopImgContainer img {
   filter: grayscale(60%);
+  transform: scale(1.2);
 }
 
 .shopItem .shopImgContainer img {
@@ -217,32 +248,6 @@ img {
   transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.shopItem .shopItemDetails .shopsItemTitle {
-  color: rgb(255, 255, 255);
-  align-items: center;
-  font-size: 20px;
-}
-
-.shopItem .shopItemDetails .shopItemdescription {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.shopItem .shopItemDetails .shopItemLink {
-  color: rgb(78, 165, 217);
-  padding: 10px 16px;
-  border-radius: 6px;
-  border: 1px solid rgb(78, 165, 217);
-  margin-top: 10px;
-  display: inline-block;
-  text-decoration: none;
-  transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.shopItem .shopItemDetails .shopItemLink:hover {
-  border-color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-}
-
 .shopImage {
   align-items: center;
   width: 35%;
@@ -250,14 +255,40 @@ img {
 }
 
 /* Rui Caneira */
+/* last updated by: Abiodun Q. Adekunle 19/06/2021 */
 /* Attractions page styling*/
-.attractionText{
-  color: rgb(255, 255, 0);
-  align-items: center;
-  font-size:15px;
+.attractionContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
 }
-.attractionImage {
-  align-items: center;
-  width: 40%;
-  Height: 40%;
+
+.attractionItem {
+  display: block;
+  position: relative;
 }
+
+.attractionItem:hover .attractionImgContainer img {
+  filter: grayscale(60%);
+  transform: scale(1.2);
+}
+
+.attractionImgContainer {
+  border-radius: 10px 10px;
+  width: 100%;
+  overflow: hidden;
+  height: 320px;
+  display: block;
+}
+
+.attractionImgContainer img {
+  width: 100%;
+  height: auto;
+  transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.attractionItemDetails {
+  padding-top: 20px;
+}
+
