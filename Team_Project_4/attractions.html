@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <!-- 
+  author: Rui Caneira 29/05/2021
+  last updated by: Rui Caneira 29/05/2021
+  description:Head section with tags used for metadata configuration of the site. Included BS libraries.
+  -->
+
+  <head>
+    <title>Space Warriors Theme Park</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A Theme park of Space Warriors. A fun space adventure awaits!" />
+    <meta name="keywords" content="Fun, Theme Park, Space Warriors, Space Adventures, Adventure, Space" />
+    <meta name="author" content="WebDev Team 15" />
+    <!--Akira Sakaguchi favicon added -->
+    <link rel="icon" href="./src/images/icon_space-warriors.png" />
+    <!-- Abiodun Q. Adekunle - Stylesheet added -->
+    <link rel="stylesheet" href="./src/StyleSheet/style.css" />
+  </head>
+
+  <body>
+    <!-- 
+    author: Rui Caneira 29/05/2021
+    last updated by: Abiodun Q. Adekunle 13/06/2021
+    description: Header section.
+    -->
+    <!-- HEADER SECTION STARTS -->
+    <div id="pgInfo">
+      <!-- Rui Caneira - Information section -->
+      <!-- last updated by: Abiodun Q. Adekunle 13/06/2021 -->
+      <div>Due to ongoing COVID 19 situation, facial masks are mandatory.</div>
+    </div>
+    <header id="pgHeader">
+      <div>
+        <!-- Akira Sakaguchi - Adding a link to the top page-->
+        <a href="./index.html">
+          <!-- Rui Caneira - Icon image for space warriors -->
+          <!-- last updated by: Abiodun Q. Adekunle 13/06/2021 -->
+          <img src="./src/images/icon_space_warriors_small.png" alt="icon" height="52" width="173" />
+        </a>
+      </div>
+      <div class="hdMisc">
+        <!-- Rui Caneira - Support email link --> <!--Akira Sakaguchi - added &nbsp;-->
+        <a href="mailto:someone@example.com">Support</a>&nbsp;&nbsp;&nbsp;
+        <!-- Rui Caneira - Site Language selection list -->
+        <label for="languages">Select Language:</label>
+        <select name="languages" id="languages">
+          <option value="english">English</option>
+          <option value="portuguese">Portuguese</option>
+          <option value="japanese">Japanese</option>
+        </select>
+      </div>
+    </header>
+    <!-- HEADER SECTION ENDS -->
+    <!-- NAVIGATION SECTION STARTS -->
+    <!-- Rui Caneira - Nav bar possible can use later a BS for a nav bar and specify the link urls also-->
+    <!-- last updated by: Abiodun Q. Adekunle 13/06/2021 -->
+    <nav id="pgNav">
+      <a href="#">Event Schedule</a>
+      <a href="#">Prices & Tickets</a>
+      <a href="./attractions.html" class="active">Attractions</a>
+      <a href="#">Access</a>
+      <a href="./services.html">Services</a>
+    </nav>
+    <!-- NAVIGATION SECTION ENDS -->
+    <!--MAIN CONTENTS STARTS -->
+    <main id="pgMain">
+      <!-- Abiodun Q. Adekunle 19/06/2021 -->
+      <div class="pgCaption">
+        <h1>Discover all that the best Space Warriors has to offer</h1>
+      </div>
+      <!-- Abiodun Q. Adekunle 19/06/2021 -->
+      <div class="attractionContainer">
+        <!-- Akira Sakaguchi - attractionA -->
+        <div>
+          <div class="attractionItem">
+            <!-- attractionA MISSION SPACE-->
+            <a href="#" class="attractionImgContainer">
+              <img class="attractionImage" src="./src/images/attractions/attraction_mission-space.jpg" />
+            </a>
+            <div class="attractionItemDetails">
+              <h4 class="pgItemTitle">
+                Mission Space
+              </h4>
+              <p class="pgItemDescription">
+                Work on a mission as a team to save the planet!
+              </p>
+              <a href="#" class="pgLink">Learn more ></a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="attractionItem">
+            <!-- attractionB SPACE COASTER-->
+            <a href="#" class="attractionImgContainer">
+              <img class="attractionImage" src="./src/images/attractions/attraction_space-coaster.jpg" />
+            </a>
+            <div class="attractionItemDetails">
+              <h4 class="pgItemTitle">Space Coaster</h4>
+              <p class="pgItemDescription">
+                Are you dare to try this speed?
+              </p>
+              <a href="#" class="pgLink">Learn more ></a>
+            </div>
+          </div>
+
+        </div>
+        <div>
+          <div class="attractionItem">
+            <!-- attractionC TRAVEL WITH HANK SOLON-->
+            <a href="#" class="attractionImgContainer">
+              <img class="attractionImage" src="./src/images/attractions/attraction_travel-with-hank-solon.jpg" />
+            </a>
+            <div class="attractionItemDetails">
+              <h4 class="pgItemTitle">Travel With Hank Solon</h4>
+              <p class="pgItemDescription">
+                Space travel with the most popular character -
+              Hank Solon!
+              </p>
+              <a href="#" class="pgLink">Learn more ></a>
+            </div>
+          </div>
+
+        </div>
+        <div>
+          <div class="attractionItem">
+            <!-- attractionD PILOT RIOT-->
+            <a href="#" class="attractionImgContainer">
+              <img class="attractionImage" src="./src/images/attractions/attractions_pilot_riot.jpg" />
+            </a>
+            <div class="attractionItemDetails">
+              <h4 class="pgItemTitle">Pilot Riot</h4>
+              <p class="pgItemDescription">
+                Be a brave pilot and to save the universe
+              </p>
+              <a href="#" class="pgLink">Learn more ></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <!--MAIN CONTENTS END-->
+    <!-- 
+    author: Abiodun Q. Adekunle 13/06/2021
+    last updated by: Abiodun Q. Adekunle 13/06/2021
+    description: Google map location for Disney world resort
+    -->
+    <iframe width="100%" height="300" style="border:0" loading="lazy" allowfullscreen
+      src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ96XKNOZ-3YgRoPEc0B85Hqc&key=AIzaSyCHJbjfg1cpqzwls1ZhRCMZ3iLkh8W_IwI"></iframe>
+    <!-- 
+    author: Rui Caneira 31/05/2021
+    last updated by: Abiodun Q. Adekunle 13/06/2021
+    description:Footer section.
+    -->
+    <!-- FOOTER SECTION STARTS -->
+    <footer id="pgFooter">
+      <div class="ftInfoContainer">
+        <img src="./src/images/icon_space_warriors_small.png" alt="icon" height="52" width="173" />
+        <div>
+          <h5>Company Space Warrior Inc. All rights reserved.</h5>
+        </div>
+        <div>
+          <p>409 Oakmound Drive, WITTER SPRINGS, CA, USA. 95493.</p>
+        </div>
+        <div class="ftContact">
+          <p>Phone: 773-348-9781</p>
+          <p>Email: g5psujrumld@temporary-mail.net</p>
+        </div>
+      </div>
+      <!-- 
+      author: Abiodun Q. Adekunle 13/06/2021
+      last updated by: Abiodun Q. Adekunle 13/06/2021
+      description: Footer navigation link
+      -->
+      <div class="ftLinkContainer">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Mission</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Legal Information</a></li>
+          <li><a href="#">Plan Your Visit</a></li>
+          <li><a href="#">Contack Us</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION ENDS -->
+  </body>
+
+</html>
