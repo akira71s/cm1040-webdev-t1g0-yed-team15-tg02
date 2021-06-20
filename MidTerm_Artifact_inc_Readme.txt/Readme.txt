@@ -7,7 +7,6 @@ UOL: CM1040 Web Development
 - Akira SAKAGUCHI (@Akira Sakaguchi)
 
 *On the team but not contributed (no response from the beginning until now..)
-- Pag Amida
 - Philipp A. Gerken
 - Siyuan Ji
 
