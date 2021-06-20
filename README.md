@@ -8,8 +8,7 @@ UOL: CM1040 Web Development
 - Rui Caneira (@Rui Caneira)
 - Akira SAKAGUCHI (@Akira Sakaguchi)
 
-*On the team but not contributed (no response from the beginning until now..)
-- Pag Amida
+On the team but not contributed (no response from the beginning until now..)
 - Philipp A. Gerken
 - Siyuan Ji
 
