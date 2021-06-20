@@ -4,7 +4,7 @@
   description: Pages styles definition to apply colors/font/appearance styles to page elements.
 */
 /* ### Font ### */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 
 /* ### Document ### */
 
@@ -21,7 +21,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-image: url("../images/pages_background.jpg");
   background-size: cover;
   background-position: center;
@@ -72,6 +72,11 @@ img {
 
 #pgHeader .hdMisc a {
   color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#pgHeader .hdMisc label {
+  color: rgba(255, 255, 255, .4);
 }
 
 /* ### Navigation Section ### */
@@ -203,6 +208,32 @@ img {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.centerTitle {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+}
+
+.centerTitle h1 {
+  font-weight: medium;
+  position: relative;
+}
+
+.centerTitle h1:after {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 2px;
+  border-radius: 2px;
+  content: '';
+  background-color: rgb(68, 207, 203);
+}
+
+.centerTitle p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 /* Rui Caneira */
 /* last updated by: Abiodun Q. Adekunle 19/06/2021 */
 /* ### Shops page styling ### */
@@ -256,7 +287,7 @@ img {
 
 /* Rui Caneira */
 /* last updated by: Abiodun Q. Adekunle 19/06/2021 */
-/* Attractions page styling*/
+/* ### Attractions page styling ###*/
 .attractionContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -292,3 +323,107 @@ img {
   padding-top: 20px;
 }
 
+/* ### Index page styling ###*/
+.idxMain {
+  padding: 40px 0;
+}
+
+#ftSection {
+  margin: 100px 0;
+}
+
+.ftBanner {
+  background-image: url("../images/index_banner.jpg");
+  padding: 20px 120px;
+  background-position: center center;
+  background-size: cover;
+  min-height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.ftBannerContent {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: grayscale(0.5) opacity(0.8);
+  padding: 40px;
+  border-radius: 20px;
+  color: #000;
+  display: inline-block;
+  max-width: 45%;
+}
+
+.ftBannerContent .pgLink:hover {
+  border-color: rgb(78, 165, 217);
+  background-color: rgb(78, 165, 217);
+  color: rgb(255, 255, 255);
+}
+
+.ftSponsors {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-column-gap: 10px;
+  margin: 20px 0;
+}
+
+.ftSponsors img {
+  width: 60px;
+}
+
+.ftAttraction {
+  padding: 0 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-column-gap: 40px;
+}
+
+.ftAttraction .ftAttractionItem {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.ftAttraction .ftAttractionItem img {
+  transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  width: 100%;
+}
+
+.ftAttraction .ftAttractionItem:hover img {
+  filter: grayscale(60%);
+  transform: scale(1.2);
+}
+
+.ftAttraction .ftAttractionItem a {
+  position: absolute;
+  bottom: 0;
+  padding: 10px 20px;
+  margin: 0;
+  left: 0;
+  background-color: rgba(34, 72, 112, 0.6);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 16px;
+  font-weight: medium;
+  text-decoration: none;
+  transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.ftAttraction .ftAttractionItem:hover a {
+  background-color: rgba(34, 72, 112, 1);
+}
+
+.idxIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.idxIntro h1 {
+  color: rgb(255, 255, 255);
+}
+
+.idxIntro p {
+  color: rgba(255, 255, 255, 0.7);
+}
