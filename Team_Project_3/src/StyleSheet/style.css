@@ -414,6 +414,12 @@ img {
   background-color: rgba(34, 72, 112, 1);
 }
 
+.ftAttractionLink {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 .idxIntro {
   display: flex;
   flex-direction: column;
