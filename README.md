@@ -27,8 +27,8 @@ On the team but not contributed (no response from the beginning until now..)
 ![image](./preview.png)
 
 - "Space Warriors Icon" -> [index.html](https://sharedrreubnpe.labs.coursera.org)
-- "Attractions" -> (attractions.html)[https://sharedrreubnpe.labs.coursera.org/attractions.html]
-- "Services" -> (services.html)[https://sharedrreubnpe.labs.coursera.org/services.html]
+- "Attractions" -> [attractions.html](https://sharedrreubnpe.labs.coursera.org/attractions.html)
+- "Services" -> [services.html](https://sharedrreubnpe.labs.coursera.org/services.html)
 
 ## Docs
 
