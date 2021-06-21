@@ -24,32 +24,29 @@ On the team but not contributed (no response from the beginning until now..)
  - services.html
 
 ## Working Links on the Website
-![image](https://user-images.githubusercontent.com/40524432/122677830-0125b680-d21f-11eb-88e4-7f80937c6075.png)
+![image](./preview.png)
 
-- "Space Warriors Icon" -> index.html
-- "Attractions" -> attractions.html 
-- "Services" -> services.html
+- "Space Warriors Icon" -> [index.html](https://sharedrreubnpe.labs.coursera.org)
+- "Attractions" -> (attractions.html)[https://sharedrreubnpe.labs.coursera.org/attractions.html]
+- "Services" -> (services.html)[https://sharedrreubnpe.labs.coursera.org/services.html]
 
 ## Docs
 
-### Team Work 1 
+### Team Work 1
 Due: 24th May
-[Google Doc](https://docs.google.com/document/d/1TM3XTzS-jHbTuv0-nfarEP0nph9dBV8fzxDv3Th5vKw/edit#)  
-[Wireframe](https://docs.google.com/presentation/d/14cTKkgStyIPKaMKLdJb1eDOViRzSaX8z4GSpHdkvQBI/edit#slide=id.p)
+[Google Doc](./Team_Project_1/UOL_Web_dev_team_work1.pdf)
 
-## Team Work 2  
-Due: 7th June  
-[Google Doc](https://docs.google.com/document/d/1EXWfN6egSDjuYhW9hr2uy1Sgz_lzvpmf_rbCXiCqSr8/edit#heading=h.wx0m714xgbhp)  
-[HTML Wireframe](https://docs.google.com/presentation/d/14cTKkgStyIPKaMKLdJb1eDOViRzSaX8z4GSpHdkvQBI/edit#slide=id.gdc2266c543_0_15)
-
-https://sharedrreubnpe.labs.coursera.org/
+## Team Work 2
+Due: 7th June
+[HTML Wireframe](./Team_Project_2/Team_Project_2_HTML_Wireframes.pdf)
+[Coursera URL](https://sharedrreubnpe.labs.coursera.org/)
 
 ## Team Work 3
-Due: 21st June  
-[Google Doc](https://docs.google.com/document/d/1LwEYz0lQgT-N1N2XVYgL2kaPhzWI_5PlZhL-_UrGfdI/edit#heading=h.2d0hgrjwz7iv)  
-[HTML Wireframe With CSS Markup](https://docs.google.com/presentation/d/1GCRgqE_-kgBDUFBchiBXWKzjbLgHmHuKXqOMsZlM82I/edit#slide=id.p)
+Due: 21st June
+[HTML Wireframe With CSS Markup](./Team_Project_3/Team_Project_3_HTML_Wireframes_with_CSS.pdf)
+[Coursera URL](https://sharedooykupzl.labs.coursera.org)
 
 ## Team Work 4
-Due: **25th** June (officially 5th July)  
-[Google Doc](https://docs.google.com/document/d/1oYWBP6iCu2ZNTP56VDhln5VY7p8cOx5uzthpKYdhpaY/edit#)  
-[HTML Wireframe With CSS Markup](https://docs.google.com/presentation/d/1GCRgqE_-kgBDUFBchiBXWKzjbLgHmHuKXqOMsZlM82I/edit#slide=id.p)
+Due: **25th** June (officially 5th July)
+[HTML Wireframe With CSS Markup](./Team_Project_4/Team Project_4_HTML_Wireframes_with_CSS.pdf)
+[Coursera URL](https://sharedooykupzl.labs.coursera.org)
