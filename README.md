@@ -48,5 +48,5 @@ Due: 21st June
 
 ## Team Work 4
 Due: **25th** June (officially 5th July)
-[HTML Wireframe With CSS Markup](./Team_Project_4/Team Project_4_HTML_Wireframes_with_CSS.pdf)
+[HTML Wireframe With CSS Markup](./Team_Project_4/Team_Project_4_HTML_Wireframes_with_CSS.pdf)
 [Coursera URL](https://sharedooykupzl.labs.coursera.org)
