@@ -7,9 +7,10 @@ UOL: CM1040 Web Development
 - Abiodun Quadri Adekunle (@Quadri)
 - Rui Caneira (@Rui Caneira)
 - Akira SAKAGUCHI (@Akira Sakaguchi)
+- Philipp A. Gerken (@Philipp A. Gerken) 
+*Philipp messaged us, but only after we submitted our work, due to his health condition
 
 On the team but not contributed (no response from the beginning until now..)
-- Philipp A. Gerken
 - Siyuan Ji
 
 ## Files
